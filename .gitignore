@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Jupyter / editor
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS / Windows metadata
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+
+# Build / cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Training outputs / checkpoints
+outputs/
+checkpoints/
+runs/
+logs/
+
+# Large model files
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+*.onnx
+
+# Large local data
+ably_reviews.csv
+zigzag_reviews.csv
+data/musinsa_train_ready.csv
+data/tapt_corpus.txt
+data/silverset.csv
+
+# Optional: if you do not want derived train/eval CSVs in repo, keep these ignored too
+# data/train_coarse.csv
+# data/eval_coarse.csv
+# data/train_coarse_with_goods.csv
+# data/eval_coarse_with_goods.csv
+# data/train_fine.csv
+# data/eval_fine.csv
