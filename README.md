@@ -4,7 +4,9 @@
 
 2026-1 텍스트마이닝 · 5인 팀 프로젝트 · Python / PyTorch / Hugging Face Transformers
 
-무신사 리뷰 391,182건의 수집·정제에서 출발해, LLM 약지도 라벨링과 KLUE-RoBERTa-Large 학습을 연결했습니다. 이 저장소는 모델 학습·평가를, [musinsa_crawler](https://github.com/riex71/musinsa_crawler)는 데이터 수집·정제를 담당합니다.
+무신사 리뷰 391,182건의 수집·정제에서 출발해, LLM 약지도 라벨링과 KLUE-RoBERTa-Large 학습을 연결했습니다. 이 저장소는 모델 학습·평가를, [musinsa_crawler](https://github.com/riex71/musinsa-review-pipeline)는 데이터 수집·정제를 담당합니다.
+
+**본인 기여:** 데이터 수집·처리, 모델링 또는 분석 구현, 실험과 결과 정리 전반을 주도했습니다. 팀 공동 참여 프로젝트입니다.
 
 ## 해결한 문제
 
